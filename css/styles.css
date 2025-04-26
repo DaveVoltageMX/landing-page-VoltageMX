@@ -1,0 +1,83 @@
+.heading {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: #025157;
+
+}
+
+h1, div {
+    color: #025157;
+  }
+
+  .header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border:solid 1px coral ;
+}
+  .logo {
+    width: 15%;
+  }
+  
+  .logo > img {
+    width: 50px;
+  }
+
+
+  .navbar {
+    width: 70%;
+  }
+  
+  .actions {
+    width: 15%;
+
+  }
+
+  .cssBody {
+    background-color: #3e5f8a ;
+    padding-top: 80px;
+  }
+
+  .promo {
+    border: solid white 1px;
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;  
+  }
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,100px);
+  }
+
+  .margen1 {
+    border: solid rgb(90, 2, 2);
+    text-align: center;
+  }
+  .margen2 {
+    border: solid rgb(124, 122, 1);
+    text-align: center;
+  }
+  .margen3 {
+    border: solid rgb(2, 122, 22);
+    text-align: center;
+  }
+  .margen4 {
+    border: solid rgb(40, 2, 90);
+    text-align: center;
+  }

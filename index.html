@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Bootstrap 5 CSS -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+rel="stylesheet"
+/>
     <!-- Aquí va información importante pero no visible dentro del navegador -->
     <title>Voltage MX</title>
      <link rel="stylesheet" href="styles.css"> 
   </head>
   <body class="cssBody">
+
+    <section class="fixed-header">
     <header class="header">
-      <a href="index.html" class="logo">  
+     <!--  <a href="index.html" class="logo">  
         <img src="stons.png" alt="logoStones"/>
-      </a>
+      </a>-->
+
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#Trayectoria">Trayectoria</a></li>
+            <li><a href="#Eventos">Eventos</a></li>
+          </ul>
+        </nav>
+        <div class="actions">
+          <a>Sign In</a>
+        </div>
+      </header>
       <!-- Menú de navegación -->
   <nav class="navbar">NavBar</nav>
+</section>
+
   <!-- Contenedor de acciones de usuario -->
   <div class="actions">Actions</div>
     </header>
     <!-- Esto es lo que se verá en el navegador web -->
-     <h1>Titulo H1</h1>
-    <p>Voltage MX Banda</p>
+     <h1>Voltage MX</h1>
+    <p>Garage rock</p>
 
     <form>
         <input type="email" />
@@ -29,5 +51,30 @@
       <br>
       <br>
 
+      <section class="promo">
+        <video width="400" height="400" controls poster="stons.png">
+          <source src="https://videocdn.cdnpk.net/joy/content/video/free/2022-01/large_preview/220114_01_Drone_4k_017.mp4?token=exp=1741451751~acl=/*~hmac=5595f3f1513ebfe4e978f3c93a6265693edbf212d70494264b86eda4fe0d471f" type="video/mp4">
+
+        </video>
+          <!-- Contenido de publicidad -->
+  <article>Detalles para info</article>
+      </section>
+
+      <br>
+
+
+  <!-- Contenido de publicidad viene antes de esta sección -->
+<section class="features">
+  <article class="margen1">Dave</article>
+  <article class="margen2">Lalox</article>
+  <article class="margen3">Héctor</article>
+  <article class="margen4">Cataline</article>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+crossorigin="anonymous">
+</script>
   </body>
 </html>
